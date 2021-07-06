@@ -1,0 +1,61 @@
+.details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.details img{
+    max-width: 400px;
+    min-width: 300px;
+    height: 500px;
+    display: block;
+}
+.details .box{
+    width: 700px;
+}
+.box .row{
+    display: flex;
+    letter-spacing: 2px;
+}
+.box span{
+    color: #aaa5a5;
+
+}
+
+.box .cart{
+    background: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 50px;
+    margin:70px 0;
+}
+.row {
+    margin-bottom: 20px;
+}
+.price {
+    width: 30% !important;
+    display: flex;
+
+}
+h3 {
+    padding:0 20px;
+}
+
+h5 {
+    text-decoration: line-through;
+}
+
+.box .wishlish {
+    background: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 50px;
+}
+
+
+
